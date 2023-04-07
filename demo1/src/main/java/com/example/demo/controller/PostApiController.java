@@ -14,7 +14,7 @@ import com.example.demo.model.PostReqDto;
 public class PostApiController {
 
 	// 클라이언트에서 어떤 값을 보낼지 이미 알고 있다.
-	// METHOD : POST
+	// METHOD : POST 
 	// 시작줄 : http://localhost:8080/api2/post1
 	// 클라이언트에서는 json 형식으로 보낼 예정
 	@PostMapping("/post1")
