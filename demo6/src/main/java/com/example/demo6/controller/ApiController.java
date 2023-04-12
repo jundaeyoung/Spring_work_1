@@ -16,6 +16,11 @@ import com.example.demo6.dto.User;
 @Validated // 하나씩 key=value 검사는 명시 해야 한다.
 			// 단 DTO 방식은 예외
 public class ApiController {
+	
+	@GetMapping("/test")
+	public String test() {
+		return "test";
+	}
 
 	// 문제 유효성 검사 동작하도록 코드 변경하시오.
 	// http://localhost:8080/api/user
