@@ -1,25 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <style>
 body {
 	width: 1000px;
 	display: flex;
 	flex-direction: column;
+	margin: 0 AUTO;
 }
 
 .material-symbols-outlined {
@@ -174,184 +170,184 @@ img {
 	width: 120px;
 }
 
+#maincontent {
+	display: -webkit-box;
+	word-wrap: break-word;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .fotter {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin-top: 30px;
 }
-.date{
+
+.date {
 	color: gray;
+}
+
+.blog {
+	justify-content: center;
+	align-items: center;
 }
 </style>
 
 <body>
-	<div>
-		<div id="header">
-			<h1>
-				<pr>Green's Blog</pr>
-				<span class="material-symbols-outlined" style="margin-left: 100px;">
-					settings </span>
-			</h1>
-			<div class="icon">
-				<a href=""> <span class="material-symbols-outlined">
-						photo_camera </span></a> <a href=""><span
-					class="material-symbols-outlined"> youtube_activity </span></a>
+	<div class="blog">
+		<div>
+			<div id="header">
+				<h1>
+					<pr>Green's Blog</pr>
+					<span class="material-symbols-outlined" style="margin-left: 100px;"> settings </span>
+				</h1>
+				<div class="icon">
+					<a href=""> <span class="material-symbols-outlined"> photo_camera </span></a> <a href=""><span class="material-symbols-outlined"> youtube_activity </span></a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div id="title">
-		<div class="title">
-			<div class="t">경영전략</div>
-			<div style="color: blue">
-				<b>20</b>
+		<div id="title">
+			<div class="title">
+				<div class="t">경영전략</div>
+				<div style="color: blue">
+					<b>20</b>
+				</div>
 			</div>
+			<a href=""> <span class="material-symbols-outlined"> edit_square </span></a>
 		</div>
-		<a href=""> <span class="material-symbols-outlined">
-				edit_square </span></a>
-	</div>
-	<div class="body">
-		<div id="side">
-			<ol>
-				<li>전체보기 <span class="material-symbols-outlined"
-					style="margin-left: 100px;"> settings </span></li>
+		<div class="body">
+			<div id="side">
+				<ol>
+					<li>전체보기 <span class="material-symbols-outlined" style="margin-left: 100px;"> settings </span></li>
 
-				<li><a href="">Python(12)</a></li>
-				<li><a href="">Java(2)</a></li>
-				<li><a href="">Ios(80)</a></li>
-				<li><a href="">소프트웨어자료(26)</a></li>
-				<li><a href="">리눅스(8)</a></li>
-				<li><a href="">Git(4)</a></li>
-				<li><a href="">자기개발(3)</a></li>
-				<li><a href="">경영전략(20)</a></li>
-				<li><a href="">리더쉽(7)</a></li>
-			</ol>
-		</div>
-
-		<div id="con">
-			<div class="content">
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-			</div>
-			
-			<div class="content">
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-			</div>
-			
-			<div class="content">
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
+					<li><a href="">Python(12)</a></li>
+					<li><a href="">Java(2)</a></li>
+					<li><a href="">Ios(80)</a></li>
+					<li><a href="">소프트웨어자료(26)</a></li>
+					<li><a href="">리눅스(8)</a></li>
+					<li><a href="">Git(4)</a></li>
+					<li><a href="">자기개발(3)</a></li>
+					<li><a href="">경영전략(20)</a></li>
+					<li><a href="">리더쉽(7)</a></li>
+				</ol>
 			</div>
 
-			<div class="content">
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
-						<p class="date">2022.01.03</p>
-					</a>
+			<div id="con">
+				<div class="content">
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<div id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</div>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
 				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-				<div>
-					<a href=""> <img alt="" src="/image/dog.png">
-						<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
-						<p class="date">2022.01.03</p>
-					</a>
-				</div>
-			</div>
 
-			<div class="fotter">
-				<pr><
-					<a href="">이전</a>
-					<a href="">1</a>
-					<a href="">2</a>
-					<a href="">3</a>
-					<a href="">4</a>
-					<a href="">5</a>
-					<a href="">6</a>
-					<a href="">7</a>
-					<a href="">8</a>
-					<a href="">9</a>
-				    <a href="">다음</a>
-				    > 
-				</pr>
+				<div class="content">
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="content">
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href="#"> <img alt="" src="/image/dog.png">
+							<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="content">
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+				</div>
+
+				<div class="fotter">
+					<pr>< <a href="">이전</a> <a href="">1</a> <a href="">2</a> <a href="">3</a> <a href="">4</a> <a href="">5</a> <a href="">6</a> <a href="">7</a> <a href="">8</a> <a href="">9</a> <a href="">다음</a>
+					> </pr>
+				</div>
 			</div>
 		</div>
 	</div>
