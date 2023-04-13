@@ -9,7 +9,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 
 // AuthInterceptor는 request 요청이 앞에 /Auth/**로 요청한 
 // 주소에서만 동작하도록 설계할 예정
-@Component
+@Component 
 public class AuthInterceptor implements HandlerInterceptor {
 
 	@Override

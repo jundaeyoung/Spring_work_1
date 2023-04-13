@@ -35,7 +35,12 @@ public class UserController {
 		System.out.println("여기 코드 실행 할려면 로그인 되야해");
 		// 상대 위치로 들어왔으면 현재 그 시점에서 맞게 설계를 해야함
 		// 위치에서 상대 경로 찾을지 절대 경로 찾을지 결정
-		return "/info.html";
+		
+		// -> http:localhost:8080/info.html URL 
+		// -> http:localhost:8080/auth/info URI
+		// redirect <-- 어디까지 갔다 오냐면, 브라우저로 돌아갔다 옴
+		// 브라우저도 다녀오면 새로운 request와, response객체가 만들어진다.
+		return "redirect:/auth/info";
 	}
 	
 	@PostMapping("/login-proc")
