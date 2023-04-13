@@ -23,5 +23,9 @@ public class UserController {
 		model.addAttribute("principal", "헬로우~~~");
 		return "Green";
 	}
-
+	
+	@GetMapping({"/","test"})
+	public String test() {
+		return "user";
+	}
 }

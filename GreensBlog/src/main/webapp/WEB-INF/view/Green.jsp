@@ -40,7 +40,7 @@ h1 .material-symbols-outlined {
 #header {
 	display: flex;
 	border: 1px solid black;
-	margin-bottom: 20px;
+	margin: 20px;
 	background-color: #D6E4FF;
 	border-style: none;
 	flex: 1;
@@ -84,7 +84,7 @@ a {
 }
 
 a:hover {
-	color: blue;
+	color: #6690FF;
 }
 
 #header .icon {
@@ -97,6 +97,7 @@ a:hover {
 #header .icon .material-symbols-outlined {
 	display: flex;
 	margin-left: 5px;
+	font-size: 35px;
 }
 
 .body {
@@ -140,8 +141,8 @@ a:hover {
 
 img {
 	margin: 15px;
-	height: 170px;
-	width: 170px;
+	height: 185px;
+	width: 185px;
 }
 
 #title .material-symbols-outlined {
@@ -159,7 +160,7 @@ img {
 .content div {
 	width: 150px;
 	height: 300px;
-	margin-right: 30px;
+	margin-right: 40px;
 	margin-bottom: 50px;
 }
 
@@ -177,6 +178,8 @@ img {
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	line-height: 18px;
+	height: 54px;
 }
 
 .fotter {
@@ -212,7 +215,7 @@ img {
 		<div id="title">
 			<div class="title">
 				<div class="t">경영전략</div>
-				<div style="color: blue">
+				<div style="color: #6690FF">
 					<b>20</b>
 				</div>
 			</div>
@@ -239,106 +242,129 @@ img {
 				<div class="content">
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p id="maincontent">ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p id="maincontent">공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<div id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</div>
+							<p id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p id="maincontent">11일 경기도 화성에서 기아 전기 PBV 전</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 				</div>
-
 				<div class="content">
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p id="maincontent">ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p id="maincontent">공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p id="maincontent">11일 경기도 화성에서 기아 전기 PBV 전</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 				</div>
-
 				<div class="content">
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p id="maincontent">ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
-							<p class="date">2022.01.03</p>
-						</a>
-					</div>
-					<div>
-						<a href="#"> <img alt="" src="/image/dog.png">
-							<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p id="maincontent">공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p id="maincontent">11일 경기도 화성에서 기아 전기 PBV 전</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 				</div>
-
 				<div class="content">
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p id="maincontent">ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p id="maincontent">공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
 					<div>
 						<a href=""> <img alt="" src="/image/dog.png">
-							<p>11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p id="maincontent">11일 경기도 화성에서 기아 전기 PBV 전</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+				</div>
+				<div class="content">
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p id="maincontent">ContentScale.Fit: 가로세로 비율(기본값)을 유지</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p id="maincontent">공간에 맞게 이미지를 가운데를 중심으로 자릅니다.</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p id="maincontent">경계가 대상 높이와 일치하도록 가로세로 비율을 유지하면서 소스의 크기를</p>
+							<p class="date">2022.01.03</p>
+						</a>
+					</div>
+					<div>
+						<a href=""> <img alt="" src="/image/dog.png">
+							<p id="maincontent">11일 경기도 화성에서 기아 전기 PBV 전</p>
 							<p class="date">2022.01.03</p>
 						</a>
 					</div>
